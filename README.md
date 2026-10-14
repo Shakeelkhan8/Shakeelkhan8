@@ -8,4 +8,4 @@ with ZATCA e-invoicing and Salla, Zid, Shopify, WASL, HyperPay and EdfaPay integ
 
 Most of my production work is private; the pinned repositories are side projects.
 
-[LinkedIn](https://www.linkedin.com/in/shakeel-khan-47888a288)
+[LinkedIn](https://www.linkedin.com/in/shakeelkhan8)
