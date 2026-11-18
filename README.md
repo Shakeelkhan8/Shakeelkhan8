@@ -10,7 +10,7 @@
 
 <br />
 
-I'm a software engineer who works across TypeScript/Node.js and PHP/Laravel, from the database to the UI. I care most about the parts of a product that have to be right: payments that never run twice, ledgers that balance, and customer data that stays separate.
+I'm a full-stack software engineer working across TypeScript/Node.js and PHP/Laravel, from the database to the UI. I work mainly on payments, double-entry ledgers, multi-tenant SaaS and AI features.
 
 ## Focus
 
@@ -24,16 +24,18 @@ I'm a software engineer who works across TypeScript/Node.js and PHP/Laravel, fro
 ## Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,nestjs,express,react,nextjs,php,laravel,postgres,mysql,redis,prisma,docker,aws,githubactions&perline=8&theme=dark" alt="TypeScript, JavaScript, Node.js, NestJS, Express, React, Next.js, PHP, Laravel, PostgreSQL, MySQL, Redis, Prisma, Docker, AWS, GitHub Actions" />
+  <img src="https://skillicons.dev/icons?i=ts,js,go,php,html,css,nodejs,nestjs,express,laravel,react,nextjs,vite,tailwind,jquery,wordpress,postgres,mysql,redis,prisma,supabase,docker,aws,vercel,githubactions,git,sentry,vitest&perline=14&theme=dark" alt="TypeScript, JavaScript, Go, PHP, HTML, CSS, Node.js, NestJS, Express, Laravel, React, Next.js, Vite, Tailwind CSS, jQuery, WordPress, PostgreSQL, MySQL, Redis, Prisma, Supabase, Docker, AWS, Vercel, GitHub Actions, Git, Sentry, Vitest" />
 </p>
 
 <table>
-  <tr><td><b>Languages</b></td><td>TypeScript, JavaScript, PHP, SQL</td></tr>
-  <tr><td><b>Backend</b></td><td>Node.js, NestJS, Express, Laravel, REST APIs, webhooks, BullMQ and Laravel queues</td></tr>
-  <tr><td><b>Frontend</b></td><td>React, Next.js, Tailwind CSS</td></tr>
-  <tr><td><b>Data</b></td><td>PostgreSQL, MySQL, Redis, Prisma, row-level security</td></tr>
-  <tr><td><b>Delivery</b></td><td>Docker, AWS, GitHub Actions, OpenTelemetry</td></tr>
-  <tr><td><b>Testing</b></td><td>Vitest, PHPUnit, Playwright, Testcontainers</td></tr>
+  <tr><td><b>Languages</b></td><td>TypeScript, JavaScript, PHP, Go, SQL, HTML, CSS</td></tr>
+  <tr><td><b>Backend</b></td><td>Node.js, NestJS, Express, Laravel, REST APIs, webhooks, Socket.IO, BullMQ and Laravel queues</td></tr>
+  <tr><td><b>Frontend</b></td><td>React, Next.js, Vite, Tailwind CSS, Blade, jQuery, WordPress</td></tr>
+  <tr><td><b>Data</b></td><td>PostgreSQL, MySQL, Redis, Prisma, Supabase, row-level security, pg_trgm search</td></tr>
+  <tr><td><b>Payments & integrations</b></td><td>Stripe, HyperPay, Shopify, Odoo, signed webhooks, transactional outbox</td></tr>
+  <tr><td><b>AI</b></td><td>OpenAI API with structured JSON output, evals, Claude Code, Cursor, GitHub Copilot</td></tr>
+  <tr><td><b>Cloud & DevOps</b></td><td>Docker, Docker Compose, AWS (EC2, S3, RDS), Vercel, GitHub Actions, OpenTelemetry, Sentry</td></tr>
+  <tr><td><b>Testing & quality</b></td><td>Vitest, PHPUnit, Playwright, Testcontainers, Larastan, ESLint</td></tr>
 </table>
 
 ## Featured work
