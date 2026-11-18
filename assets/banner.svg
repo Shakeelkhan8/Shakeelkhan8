@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+  <title id="t">Shakeel Khan, Software Engineer</title>
+  <desc id="d">I build the parts of a product that have to be right: payments, ledgers, multi-tenant SaaS and AI features.</desc>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#23201c"/>
+    </pattern>
+    <radialGradient id="glow" cx="78%" cy="40%" r="45%">
+      <stop offset="0" stop-color="#e6a957" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#e6a957" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6a957"/>
+      <stop offset="1" stop-color="#e6a957" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="360" rx="18"/></clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: ui-monospace, 'SF Mono', 'Cascadia Code', Consolas, Menlo, monospace; }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="#0b0a09"/>
+    <rect width="1200" height="360" fill="url(#dots)"/>
+    <rect width="1200" height="360" fill="url(#glow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="17.5" fill="none" stroke="#23201c"/>
+
+  <!-- Left: identity -->
+  <text x="64" y="92" class="mono" font-size="15" letter-spacing="3" fill="#e6a957">SOFTWARE ENGINEER</text>
+  <rect x="64" y="108" width="140" height="2" fill="url(#rule)"/>
+  <text x="62" y="178" class="sans" font-size="68" font-weight="600" letter-spacing="-1.5" fill="#ece7df">Shakeel Khan</text>
+  <text x="64" y="222" class="sans" font-size="22" fill="#9c958c">I build the parts of a product that have to be right.</text>
+
+  <g class="mono" font-size="14" fill="#c9c2b8">
+    <rect x="64" y="262" width="98" height="34" rx="17" fill="#121110" stroke="#23201c"/>
+    <text x="113" y="284" text-anchor="middle">payments</text>
+    <rect x="172" y="262" width="88" height="34" rx="17" fill="#121110" stroke="#23201c"/>
+    <text x="216" y="284" text-anchor="middle">ledgers</text>
+    <rect x="270" y="262" width="168" height="34" rx="17" fill="#121110" stroke="#23201c"/>
+    <text x="354" y="284" text-anchor="middle">multi-tenant SaaS</text>
+    <rect x="448" y="262" width="118" height="34" rx="17" fill="#121110" stroke="#23201c"/>
+    <text x="507" y="284" text-anchor="middle">AI features</text>
+  </g>
+
+  <!-- Right: a balanced double-entry posting -->
+  <g transform="translate(742 70)">
+    <rect width="394" height="220" rx="12" fill="#121110" stroke="#23201c"/>
+    <circle cx="22" cy="22" r="5" fill="#23201c"/>
+    <circle cx="40" cy="22" r="5" fill="#23201c"/>
+    <circle cx="58" cy="22" r="5" fill="#23201c"/>
+    <text x="372" y="27" text-anchor="end" class="mono" font-size="12" fill="#6f6960">ledger.post()</text>
+    <line x1="0" y1="44" x2="394" y2="44" stroke="#23201c"/>
+
+    <g class="mono" font-size="15">
+      <text x="24" y="80" fill="#6f6960">posting</text>
+      <text x="370" y="80" text-anchor="end" fill="#9c958c">order_8f2c</text>
+
+      <text x="24" y="114" fill="#e6a957">DR</text>
+      <text x="60" y="114" fill="#ece7df">cash_on_delivery</text>
+      <text x="370" y="114" text-anchor="end" fill="#ece7df">1,250.00</text>
+
+      <text x="24" y="142" fill="#e6a957">CR</text>
+      <text x="60" y="142" fill="#ece7df">merchant_payable</text>
+      <text x="370" y="142" text-anchor="end" fill="#ece7df">1,250.00</text>
+
+      <line x1="24" y1="162" x2="370" y2="162" stroke="#23201c" stroke-dasharray="4 4"/>
+
+      <text x="24" y="192" fill="#9c958c">balance</text>
+      <text x="336" y="192" text-anchor="end" fill="#3ecf8e">0.00</text>
+      <text x="356" y="192" text-anchor="end" fill="#3ecf8e">✓</text>
+      <rect class="cursor" x="362" y="178" width="8" height="18" fill="#e6a957"/>
+    </g>
+  </g>
+</svg>
